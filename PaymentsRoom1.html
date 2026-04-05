@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Villa Carlina Resort</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts Links For Icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+          <div class="villacarlina">
+            <img src="images/resort-logo/logo.jpg">
+          </div>
+              <ul class="menu-links">
+                <span id="close-menu-btn" class="material-symbols-outlined">close</span>
+
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="room_reservation.html">Room Reservation</a></li>
+                  <li><a href="Restaurant_Menu.html">Restaurant Menu</a></li>
+                  <div class="dropdown">
+                    <button class="dropbtn">Gallery</button>
+                    <div class="dropdown-content">
+                      <a href="Resort.html">Resort</a>
+                      <a href="beach.html">Beach</a>
+                      <a href="Tourist_Spot.html">Tourist Spot</a>
+                    </div>
+                  </div>
+                  <li><a href="about_us.html">About Us</a></li>
+                  <li><a href="Contact_Us.html">Contact Us</a></li>
+              </ul>
+          <span id="hamburger-btn" class="material-symbols-outlined">menu</span>
+      </nav>
+    </header>
+
+
+    <div class="summary">
+      <h1 class = paymentresort_title>Checkout Summary</h1>
+
+      <p><strong>Room:</strong> <span id="BookRoom_title"></span></p>
+      <p><strong>Days:</strong> <span id="qty"></span></p>
+      <p><strong>Total Price:</strong> <span id="paymentTotal"></span></p>
+
+      <button class="btn back-btn" id="backBtn"> Back</button>
+      <button class="btn pay-btn" id="payBtn"> Proceed to Payment</button>
+   </div>
+
+      <div class= "carlina-resort">
+          <img src="images/homepage-background/background-beach.jpg">
+      </div>
+
+
+<footer>
+  <p><span><a href="https://www.facebook.com/VillaCarlinaResort16" target="_blank">Villa Carlina Resort</a></span> | &copy; 2024 All Rights Reserved (Ephraim B. Espiritu)</p>
+</footer>
+
+    <script src="js/PaymentsRoom/PaymentsRoom1.js"></script>
+    <script src="js/Main/hamburgerBth.js"></script>
+    <script src="js/Main/slides-scripts.js"></script>
+  </body>
+</html>
